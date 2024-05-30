@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ejercicio con HTML y CSS</title>
+
+    
+
+
+</head>
+<body>
+    
+    <header>
+
+        <h1>Escuela Normal Superior Nº40 "Mariano Moreno"</h1>
+        <h2>Tecnicaturas en Desarrollo de Software</h2>
+    
+
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+
+            <h3>Formulario de Contacto</h3>
+
+            <!-- Formulario en HTML5 -->
+
+            <form action="" id="form" method="post">
+
+                <!-- utilizamos nuevos tipos de datos creados por HTML5 -->
+
+                <!-- utilizaremos nuevas propiedades que nos brinda el lenguaje -->
+
+                <!-- datos tipo TEXTO -->
+
+                <p>
+                    <label for="nom">Ingrese el nombre</label>
+                <input type="text" name="nom" id="nom" placeholder="Juan" required>
+                </p>
+                
+
+                <p>
+                    <label for="ape">Ingrese el apellido</label>
+                <input type="text" name="ape" id="ape" placeholder="Perez"  >
+                </p>
+
+                <!-- datos tipo NUMERO-->
+
+                <p>
+                    <label for="edad">Ingrese su edad</label>
+                <input type="number" name="edad" id="edad">    
+                </p>
+
+                <!-- datos tipo FECHA -->
+
+                <p>
+                    <label for="feccha">Ingrese su fecha de nacimiento</label>
+                    <input type="date" name="fecha" id="fecha">
+                </p>
+
+                <!-- Elemento de SELECCIÓN de lista -->
+
+                <p>
+                    <label for="ciudad">Ingrese la localidad de nacimiento</label>
+                    <select name="ciudad" id="ciudad">
+                        <option value="san cristobal">San cristobal</option>
+                        <option value="ceres">Ceres</option>
+                        <option value="santa fe">Santa Fe</option>
+                        <option value="arrufo">Arrufo</option>
+                        <option value="huanqueros">Huanqueros</option>
+
+                    </select>
+                </p>
+
+                <!-- Elementos de OPCIÓN ÚNICA -->
+
+                <p>
+                    <label for="nivel">Ingrese nivel educativo</label>
+                    
+                    <br>               
+                    <input type="radio" name="nivel" id="nivel" value="primaria">
+                    Primaria <br>                   
+                    <input type="radio" name="nivel" id="nivel" value="secundaria">
+                    Secundaria <br>
+                    <input type="radio" name="nivel" id="nivel" value="terciario">
+                    Terciario <br>
+                    <input type="radio" name="nivel" id="nivel" value="universitario">
+                    Universitario <br>
+                </p>
+
+                <!-- datos tipo CORREO ELECTRÓNICO -->
+
+                <p>
+                    <label for="correo">Ingrese su correo electrónico</label>
+                    <input type="email" name="correo" id="correo" placeholder="usuario@gmail.com"  >
+                </p>
+                                
+
+                <!-- BOTONES -->       
+                
+                <br>
+                <!-- Boton de envío de formulario -->
+                <button type="submit">Guardar Datos</button>
+
+                 <!-- Boton para borrar el formulario -->
+                <button type="reset">Cancelar</button>
+            
+
+            </form>
+
+     
+
+
+
+
+
+
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <h5>Desarrollo web 2024</h5>
+
+    </footer>
+
+
+
+
+</body>
+</html>
